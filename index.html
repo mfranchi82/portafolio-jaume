@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;700&display=swap" rel="stylesheet">
+    <title>Portafolio</title>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header_content">
+                <a href="/index.html"><img src="./images/LOGO.png" width="70" height="20" alt="logo"></a>
+                <nav class="menu" aria-label="main-navigation">
+                    <ul>
+                        <li>
+                            <a class="is-active" href="#main">Hola</a>
+                        </li>
+                        <li>
+                            <a href="#projects">Proyectos</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Hablemos</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div>
+                    <a class="btnSolid" href="https://miguelfranchi.info/" target="_blank">Curriculum</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper_section">
+    
+        <section aria-label="main" id="main" class="hero">
+            <div class="hero-image">
+                <img src="./images/jaume.png" width="338" height="330" alt="Jaume">
+            </div>
+            <div class="hero-description">
+                <h1>    
+                    <span>¡Hola a todos!</span>
+                    <span>Soy Miguel</span>
+                </h1>
+                <p>
+                    Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.
+                </p>
+                <div class="social">
+                    <a class="button-icon" href="tel:+584243148415"><img src="./icons/phone.svg" alt="telefono"></a>
+                    <a class="button-icon" href="mailto:mfranchi82@gmail.com" target="_blank"><img src="./icons/envelope.svg" alt="email"></a>
+                    <a class="button-icon" href="https://www.instagram.com/mfranchi82/" target="_blank"><img src="./icons/instagram.svg" alt="instagram"></a>
+                    <a class="button-icon" href="https://twitter.com/mfranchi82"><img src="./icons/twitter.svg" alt="twitter" target="_blank"></a>
+                </div>
+                <div class="curriculum">
+                    <a href="https://miguelfranchi.info/" class="btnSolid" target="_blank">Descargar Curriculum</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="comment">
+            <div>
+                <p class="commentPrimary">
+                    A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles
+                </p>
+                <p class="commentSecundary">
+                    Aquí hay algunos que me gustaría compartir.
+                </p>
+            </div>
+            <div class="arrowComment">
+                <a href="#projects"><img src="./icons/arrow-down.svg" alt="proyectos" width="80" height="80"></a>
+            </div>
+            
+        </div>
+
+        <div id="projects"></div>
+        <div id="1" class="projectCard">
+            <div class="project-image">
+                <img src="./images/project-leonidas.png" alt="proyecto leonidas">
+            </div>
+            <div class="project-description">
+                <a class="title_especial" href="https://leonidasesteban.com" target="_blank">leonidasesteban.com</a>
+                <p>Accede a más de 120 proyectos que te ayudarán a mejorar tus habilidades como desarrollador Front-End.</p>
+                <div class="bottoms_project">
+                    <a href="#" class="btnSolid secundary">Ver Código</a>
+                    <a href="#" class="btnSolid">Ver Proyecto</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonials">
+            <div class="imageTestimonial">
+                <img src="./images/leonidas.png" alt="Leonidas" width="64" height="64">
+            </div>
+            <h4>
+                "Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses ".
+            </h4>
+            <p>
+                LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM
+            </p>
+        </div>
+
+        <div id="2" class="projectCard">
+            <div class="project-image">
+                <img src="./images/project-marvol.png" alt="Marvol">
+            </div>
+            <div class="project-description">
+                <a class="title_especial" href="#" target="_blank">MARVOL</a>
+                <p>Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y más oficiales de Marvol.</p>
+                <div class="bottoms_project">
+                    <a href="#" class="btnSolid secundary">Ver Código</a>
+                    <a href="#" class="btnSolid">Ver Proyecto</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonials">
+            <div class="imageTestimonial">
+                <img src="./images/jason.png" alt="Jason" width="64" height="64">
+            </div>
+            <h4>
+                "Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".
+            </h4>
+            <p>
+                JASON LOPEZ / COFUNDADOR Y CEO MARVOL
+            </p>
+        </div>
+
+        <div id="3" class="projectCard">
+            <div class="project-image">
+                <img src="./images/project-netnet.png" alt="Netnet">
+            </div>
+            <div class="project-description">
+                <a class="title_especial" href="#" target="_blank">NETNET</a>
+                <p>Películas y series ilimitadas y mucho más. Disfruta donde quieras. Cancela cuando quieras.</p>
+                <div class="bottoms_project">
+                    <a href="#" class="btnSolid secundary">Ver Código</a>
+                    <a href="#" class="btnSolid">Ver Proyecto</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonials">
+            <div class="imageTestimonial">
+                <img src="./images/marco.png" alt="Marco" width="64" height="64">
+            </div>
+            <h4>
+                "Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos".
+            </h4>
+            <p>
+                MARCO CORTEZ / NETNET
+            </p>
+        </div>
+
+        <form class="form" id="contact" action="https://formspree.io/f/mnqlbnlk" method="POST">
+            <h2 class="title_especial">HABLEMOS</h2>
+            <p>
+                Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.
+            </p>
+            <label for="form-name">
+                Nombre Completo 
+                <input required name="name" id="form-name" type="text" placeholder="Juan">
+            </label>
+            <label for="form-email">
+                Email 
+                <input required name="email" id="form-email" type="email" placeholder="juan@gmail.com">
+            </label>
+            <label for="form-message" placeholder="Mensaje" id="form-message">
+                Mensaje            
+                <textarea name="message" id="form-message" type="text" cols="30" rows="5" placeholder="Escribe aquí tu mensaje"></textarea>
+            </label>
+            <button class="btnSolid" type="submit">Enviar mensaje</button>
+        </form>
+
+        <footer class="footer">
+            <div class="footer_content">
+                <div class="footer_logo">
+                    <img src="./images/LOGO.png" alt="logo" width="70" height="20">
+                </div>
+                <div class="social">
+                    <a class="button-icon" href="tel:+584243148415"><img src="./icons/phone.svg" alt="telefono"></a>
+                    <a class="button-icon" href="mailto:mfranchi82@gmail.com" target="_blank"><img src="./icons/envelope.svg" alt="email"></a>
+                    <a class="button-icon" href="https://www.instagram.com/mfranchi82/" target="_blank"><img src="./icons/instagram.svg" alt="instagram"></a>
+                    <a class="button-icon" href="https://twitter.com/mfranchi82"><img src="./icons/twitter.svg" alt="twitter" target="_blank"></a>
+                </div>
+                <div class="footer_copyright">
+                    <p>
+                        Hecho con el 🖤 por Miguel.
+                    </p>
+                    <p>
+                        Copyright 2021 - Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+<!-- script formulario
+
+<script>
+    const $form = document.querySelector('#form')
+
+    $form.addEventListener('submit', handleSubmit)  Me genera este error en consola: Uncaught TypeError: Cannot read property 'addEventListener' of null
+
+    async function handleSubmit(event) {
+        event.preventDefault()
+        const form = new FormData(this)
+        const response = await fetch(this.action, {
+            method: this.method,
+            body: form,
+            headers: {
+                'Accept': 'application/json'
+            }
+        })
+        if (response.ok) {
+            this.reset()
+            alert ('Gracias por contactarme, pronto estaré respondiendo tu solicitud :)')
+        }
+    }
+</script>-->
+    </div>
+
+
+
+</body>
+</html>

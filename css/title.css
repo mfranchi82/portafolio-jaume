@@ -1,0 +1,12 @@
+.title_especial {
+    font: var(--headline5);
+    color: var(--white);
+    background: var(--purple);
+    box-shadow: -4px 4px 0 var(--white);
+    text-decoration: none;
+    padding-inline-start: 8px;
+    padding-inline-end: 8px;
+    padding-block-start: 4px;
+    padding-block-end: 4px;
+    align-self: flex-start;
+}

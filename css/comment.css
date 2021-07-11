@@ -1,0 +1,50 @@
+.comment {
+    margin-block-start: 40px;
+    margin-block-end: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.commentPrimary {
+    font: var(--body3);
+    color: var(--purple);
+    text-align: center;
+}
+
+.commentSecundary {
+    font: var(--headline5);
+    color: var(--purple);
+    text-align: center;
+}
+
+.arrowComment {
+    gap: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+    .comment {
+        padding-block-start: 200px;
+        padding-block-end: 200px;
+        max-inline-size: 900px;
+        display: flex;
+       margin: auto;
+       gap: 24px;
+    }
+
+    .commentPrimary {
+        font: var(--body4);
+        color: var(--purple);
+        text-align: center;
+        margin: 0;
+        padding-block-end: 24px;
+    }
+    
+    .commentSecundary {
+        font: var(--headline5);
+        color: var(--purple);
+        text-align: center;
+        margin: 0;
+    }
+}

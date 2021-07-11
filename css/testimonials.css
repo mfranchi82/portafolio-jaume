@@ -1,0 +1,67 @@
+.testimonials {
+    margin-block-start: 40px;
+    margin-block-end: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 24px;
+    border-style: inset;
+    border: 3.98px solid rgba(255, 255, 255, 0.2);
+    border-image: linear-gradient; /*No entendí como hacer el degradado en el borde*/
+    
+}
+
+.imageTestimonial img {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+}
+
+.testimonials h4 {
+    font: var(--body6);
+   margin-block-start: 24px;
+   margin-block-end: 24px;
+}
+
+.testimonials p {
+    font: var(--body5);
+    margin: 0;
+}
+
+
+@media screen and (min-width: 1024px) {
+   .testimonials {
+       margin-block-start: 80px;
+       max-inline-size: 1132px;
+       margin-inline-start: 0;
+       margin-inline-end: 0;
+       padding: 80px;
+   }
+
+   .imageTestimonial img {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    }
+
+    .testimonials h4 {
+        font: var(--headline4);
+       margin-block-start: 24px;
+       margin-block-end: 24px;
+       text-align: center;
+    }
+    
+    .testimonials p {
+        font: var(--headline5);
+        margin: 0;
+        text-align: center;
+        opacity: 50%;
+    }
+}
